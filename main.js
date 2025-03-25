@@ -43,3 +43,9 @@ const scrollRevealOption = {
     duration: 1000,
     delay: 7000,
   });
+
+
+  document.querySelector(".menu-toggle").addEventListener("click", function () {
+    document.querySelector(".nav__links").classList.toggle("active");
+  });
+  
